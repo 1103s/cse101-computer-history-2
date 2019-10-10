@@ -5,14 +5,13 @@
 
 \title{\LARGE \bf
 COMPUTER HISTORY\\
-\large The History of Real-Time Computing
+\large Group Topic Expressed In A Few Words
 }
 
-\author{Group 5\\
-\small Nash Taylor\\
-\small Summer Bronson\\
-\small Thomas Merl\\
-\small Elijah Pelofske
+\author{Group Number\\
+\small Group Member 1\\
+\small Group Member 2\\
+\small Group Member 3\\
 }
 
 % Image/graphics support
@@ -27,9 +26,6 @@ COMPUTER HISTORY\\
 \restylefloat{table}
 \restylefloat{figure}
 
-% Multiline commenting
-\usepackage{verbatim}
-
 \begin{document}
 
 
@@ -39,130 +35,71 @@ COMPUTER HISTORY\\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{ABSTRACT}
+\textit{
+This document is a basic template for writing conference-style
+reports in LaTeX. You will use this template when writing
+your report; you will need to replace all text (excluding
+section headers or preamble information) with the content
+of your report.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{INTRODUCTION}
 
-\begin{comment}
-This document is an example of Assignment 3 in CSE/IT101.
-You should describe what topic you chose and
-why you chose that topic. Also provide a summary of the
-topic, in a general sense. This section should describe any
-background information that the reader needs to know to
-understand your topic.
-\end{comment}
+In a modern world of complex operation modes like asynchronous and functional programming, 
+It is important to appreciate the simple methodology of real-time programming. It's a concept 
+that emerged alongside what we consider modern computing and is still present in some form in nearly 
+every computing application today. Everything from anti-lock brake controls, to space flight, to nuclear powerplant control units; 
+everything uses real-time programming. The idea is simple: every input produces a near-instant output, and tasks are scheduled and 
+run at exact times. Any delay, even a few milliseconds can be considered as a failure, and thus while it is a simple concept on paper, 
+it is far more difficult to achieve in practice. This struggle and development is ongoing and continues to produce new solutions, both hardware and 
+software, every year.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{TIME PERIOD}
-Real time computing was developed alongside standard use cases for computers when real time simulations were implemented. In some early systems starting in the 1970's real time operating systems could be used on personal desktop computers. However, real time computing systems primary use case is in highly precise and time critical real world systems such with cars and automated military systems and simulations. Therefore, they subsequently gained the attention of industry and government usage across a massive array of applications. Although they are an incredibly specific use case, where in general timing accuracy and task management, real time computing systems are still in use today in many modern digital system.
-\begin{comment}
+
 You should describe the time period in which your topic was
 invented or used here. Also include the context for why your
 topic was created or for how it is used. Any specific historical
 information should be included here.
-\end{comment}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{COMPUTER HARDWARE}
+The hardware in real-time computing must be extremely dependable and precise.
+ This is critical because any delay may cause the entire system to fail.
+  Real-time Computing is used in many real life situations, from car breaks to launching missiles. 
+  A couple examples of the hardware in real-time computing is Xilinx FPGA and
+   SoC boards, System-on-Modules, and Alveo Data Center accelerator cards.
+    Another way to create more powerful hardware is by adding a real-time micro kernel 
+    between the normal hardware and the Linux kernel. 
 
-\begin{comment}
-You should list the specification of any hardware your topic
-uses here. If you want make a table here, please label the table
-and include discussion on what components are included in the
-table and why. See Table
-\ref{tbl:example} for an example of a table.
-The labels/captions of the table should be put at the bottom
-of the table.
-\end{comment}
-
-\begin{table}[h!]
-\begin{center}
-\begin{tabular}{||c | c | c | c||} 
-\hline
-  & Col1 & Col2 & Col3 \\ [0.5ex]
-\hline\hline
-Row1 & (1,1) & (1,2) & (1,3) \\ 
-\hline
-Row2 & (2,1) & (2,2) & (2,3) \\
-\hline
-Row3 & (3,1) & (3,2) & (3,3) \\
-\hline
-\end{tabular}
-\caption{Example of a table}
-\label{tbl:example}
-\end{center}
-\end{table}
-
-\begin{comment}
-You might want to put figures in the document. Please
-remember to label them. The labels/captions of the figures
-should be put at the bottom of the figure. See Figure
-\ref{fig:example} for an example of how to use figures.
-You will need to place the figure in an \texttt{images/} folder
-in your working directory.
-\end{comment}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.5\textwidth]{spiral.png}
-\caption{Example of a figure}
-\label{fig:example}
-\end{figure} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{COMPUTER SOFTWARE}
 
-<<<<<<< HEAD
 The main piece of software on a real-time computer is a real-time operating system (RTOS). An RTOS is an operating system
 that processes data as it comes into the system with little to no delay. The RTOS has a very limited amount of time (usually
 measured in tenths of a second) to process the data and if it can't process the data in time, the entire system will fail. While this seems useless, it actually
 is very important. Real time operating systems can be found in computer systems for cars and spacecraft for NASA, where performance
 is key. For example, the computer system controlling the self driving function in a Tesla needs to process data in near real-time
 in order to prevent a crash.
-=======
-\begin{comment}
-Describe the software used for your chosen topic if any,
-and state any uses of the software that your topic had.
-If your topic does not have or use software, describe why it
-doesn't use software and how it functions without it.
-\end{comment}
->>>>>>> pilofski
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{CONCLUSION}
 
-\begin{comment}
 Conclude your research paper with any reflections on what you
 learned about your topic. Was this what you expected to find?
 Did you find any facts that surprised you? You may add other
 personal reflections about the topic here.
-\end{comment}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{REFERENCES}
 
-\begin{enumerate}
-\item Kang Shin et al. Real-Time Computing: A new Discipline of Computer Science and Engineering
-\end{enumerate}
-
-\begin{comment}
 Below are basic formats for different types of references.
 
 \begin{enumerate}[label={[\arabic*]}]
-<<<<<<< HEAD
   \item “What Is Real-Time Computing?” RTXI, http://rtxi.org/docs/tutorials/2014/12/06/what-is-real-time-computing/.
   \item ``Real-time Operating System.'' Wikipedia, Wikimedia Foundation, 26 Sept. 2019, \\ en.wikipedia.org/wiki/Real-time\_operating\_system.
   \item “What Are the Five Most Commonly Used Real-Time Operating Systems?” Stack Overflow, stackoverflow.com/questions/5281848/what-are-the-five-most-commonly-used-real-time-operating-systems. 
 
-=======
-\item Name of Author, ``Title of chapter in the book,''
-Title of The Published Book, xth edition. City of
-Publisher, Country if not U.S.
-\item Name of Author, “Name of paper,” Abbrev.
-Title of Periodical, vol. x, no. x, pp. xxx-xxx,
-Abbrev. Month, year.
-\item Name of Author, (Year, Month),
-Title of Internet Article [Online]. Available E-Mail:
-E-Mail.
->>>>>>> pilofski
 \end{enumerate}
-\end{comment}
+
 \end{document}
 
