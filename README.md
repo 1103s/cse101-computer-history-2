@@ -1,2 +1,2 @@
 # cse101-computer-history-2
-Lets try this again shall we.
+The Branch where Nash tries to figure out git and probably puts some important files
